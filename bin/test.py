@@ -14,6 +14,8 @@ import sys
 pkg_pth = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(pkg_pth)
 
+from lib import *
+
 
 #--------------------------------MAIN---------------------------------#
 def main():
